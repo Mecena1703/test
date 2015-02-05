@@ -1,0 +1,63 @@
+body{
+		background: beige;
+	}
+	#hdr,#cntnt{
+		/*width: 500px;*/
+		margin: 5px;
+		padding: 10px 10px 10px 10px;
+		background: azure;
+	}
+
+	ul{
+		
+		margin: 0px;
+		padding: 0px;
+		/*background: navy;*/
+	}
+	li{
+		color: white;
+		width: 150px;
+		display: inline-block;
+		padding: 15px 0px 15px 0px;
+		text-align: center;
+		background: darkgreen;
+		font-family: 'Open Sans', sans-serif;
+	}
+	li:hover{
+		background: goldenrod;
+		/*border-radius: 13px;*/
+		color:white;
+		/*border:solid 1px black;*/
+
+	}
+	p{
+		background: darkgray;
+		color: white;
+		height: 500px;
+		font-family: 'Open Sans', sans-serif;
+	}
+	a{
+		color: white;
+	}
+	#srch{
+
+		width: 350px;
+		font-size: 3em;
+	}
+	#icon{
+		margin-right: 55px;
+		background-image: url("http://i.imgur.com/OR1xMVf.png");
+	}
+	input{
+		font-size: 0.5em;	
+		border-radius: 15px;
+		border:solid 1px maroon;
+		font-family: 'Open Sans', sans-serif;
+		padding: 5px 5px 5px 5px;
+	}
+
+	input:focus{
+
+		background: #ACAC12;
+		outline: 0px;
+	}
